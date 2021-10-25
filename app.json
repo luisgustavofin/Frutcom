@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Frutcom",
+    "slug": "frutcom",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "primaryColor": "#ffffff",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "barStyle": "dark-content"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "br.com.frutcom",
+      "buildNumber": "1.0.2"
+    },
+    "android": {
+      "package": "br.com.frutcom",
+      "versionCode": 1,
+      "permissions": []
+    }
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+yarn.lock
+package-lock-error.log
+yarn-error.log
+package-lock.json
+.DS_Store
+.vscode
