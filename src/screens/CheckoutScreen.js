@@ -6,7 +6,7 @@ import { CheckoutTemplate } from '../components/templates';
 
 const CheckoutScreen = (props) => {
   const [loading, setLoading] = useState(false);
-  const [pdfList, setPdfList] = useState();
+  const [pdfList, setPdfList] = useState('');
   const pdfCPF = `CPF: ${props.cpf}`;
   const pdfTotal = `Valor Total: ${props.total.toFixed(2)}`;
 
@@ -45,7 +45,6 @@ const CheckoutScreen = (props) => {
   const onPressCheck = async () => {
     setLoading(true);
     await setList();
-    console.log(pdfList);
     const { uri } = await Print.printToFileAsync({ html });
     await shareAsync(uri, { UTI: '.pdf', mimeType: 'application/pdf' });
     setLoading(false);
