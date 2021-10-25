@@ -51,7 +51,7 @@ Para realizar o clone e instalação do projeto, siga as etapas abaixo:
 Clone o projeto e entre no diretório criado:
 
 ```
-git clone https://github.com/luis-fin/Frutcom
+git clone https://github.com/luisgustavofin/Frutcom
 cd Frutcom
 ```
 
